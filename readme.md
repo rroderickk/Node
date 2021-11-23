@@ -4,13 +4,13 @@ en la consola:
 
 - node conceptos\monohilo.js = mostrando outputs ocasionando errores
 
-# ¡Introducción!
+## ¡Introducción! branch psicologico y aprendes donde aprendes algo nuevo.
 
 Aquí aprenderá sobre Vim y estará preparado para lo que está por venir:
 
 > Vim es para programadores que quieren mejorar su juego. En manos de un experto, Vim tritura el texto a la velocidad del pensamiento.
 
-# Instalación de Vim en VSCode
+## Instalación de Vim en VSCode
 
 Si no ha instalado VSCodeVim, ahora es el momento de hacerlo.
 
@@ -22,19 +22,19 @@ Si no ha instalado VSCodeVim, ahora es el momento de hacerlo.
 
 Cuando haya hecho eso, vuelva a este editor. Tu cursor ya no debería ser un | sino un rectángulo.
 
-: O
+:hushed:
 
 Ahora vamos a dar un paseo rápido. Salte al capítulo siguiente.
 
-# Pasos de bebé en Vim
+## Pasitos de bebé en Vim
 
 ¿¡Oh no!? Si intentas escribir cosas con el curioso cursor en forma de rectángulo, ¿no pasa nada? ¿O suceden cosas extrañas? !!?
 
-щ(ﾟДﾟщ）:cry: :wtf?:
+щ(ﾟДﾟщ）:cry: :stuck_out_tongue_winking_eye:
 
 Está bien. Toma un trago de tu cerveza. No he roto tu editor. AUN!.
 
-Vim es un editor bastante exquisito. Tiene modos. Un modo para navegar / editar, un modo para insertar texto, un modo para seleccionar texto. Esto es lo MEJORRR. Le da a Vim la capacidad de aprovechar realmente ese teclado al maximo porque puede realmete conectarse con el.
+Vim es un editor bastante exquisito. Tiene modos. Un modo para navegar / editar, un modo para insertar texto, un modo para seleccionar texto. Esto es lo MEJORRR. Le da a Vim la capacidad de aprovechar realmente ese teclado al maximo porque puede realmente conectarse con el.
 
 El modo que está activo en este momento (con el cursor de forma rectangular) es ** modo normal **. En ese modo, Vim se enfoca únicamente en navegar súper rápido alrededor del código y editar, dos de las cosas más comunes que hace cuando codifica.
 
@@ -89,7 +89,7 @@ Recuerdas cuando intentaste moverte en un juego?piensa que estás en un juego. D
                         tesoro
 ````
 
-Yeah! Congrats! You're now rich and can settle in a beautiful ascii palace!
+¡Sí! ¡Felicitaciones! ¡Ahora eres rico y puedes instalarte en un hermoso palacio ascii! :LOL:
 
 ```
                                    |>>>
@@ -110,20 +110,28 @@ Yeah! Congrats! You're now rich and can settle in a beautiful ascii palace!
            ~---__ ,--~'                  ~~----_____-~'
 ```
 
-Now that we've learned the most basic of movements let's take a look at how you can make your editor behave like you are used to: **Insert mode**. **Insert mode** is where Vim focuses in inserting bits of text and code, just like a normal editor.
+Ahora que hemos aprendido los movimientos más básicos, echemos un vistazo a cómo puede hacer que su editor se comporte como está acostumbrado a: ** Modo Insertar **. ** El modo de inserción ** es donde Vim se enfoca en insertar fragmentos de texto y código, al igual que un editor normal.
 
-- Type `i` to get into **Insert mode**.
-- Type `<ESC>`, `<CTRL-[>` or `<CTRL-C>` to get back to **Normal mode**.
+- Presione `i` para entrar en ** modo Insertar **.
+- Escriba `<ESC>`, `<CTRL - [>` o `<CTRL-C>` para volver al ** Modo normal **.
 
-Complete these sentences. Practice using `i` to get into **Insert mode** and `<ESC>` (or any of the others) to get into **Normal mode**.
+Completar estas oraciones. Practica usando `i` para entrar en ** modo Insertar ** y` <ESC> `(o cualquiera de los otros) para entrar en ** modo Normal **.
 
-```
-I want to learn Vim because...
-My favorite food is...
-I'd die for a...
-If I went to a desserted island I'd bring a...
-```
+''
+Quiero aprender Vim porque ...
+Mi comida favorita es...
+Moriría por un ...
+Si fuera a una isla desierta, llevaría un ...
+''
 
-Awesome! Great job!
+¡Impresionante! ¡Gran trabajo!
 
-> A great tip to improve your keyboard and Vim skills is to map your CAPSLOCK to both ESC and CTRL. ESC when pressed on its own, and CTRL when pressed in combination with any other key. This is super nice because the caps lock key is in your home row, very near the natural resting position of your hands. In Mac you can achieve that using Karabiner and there's many mechanicals keyboard that let you configure it as well like the Ultimate Hacking Keyboard.
+> Un gran consejo para mejorar sus habilidades con el teclado y Vim es asignar su BLOQ MAYÚS a ESC y CTRL. ESC cuando se presiona solo y CTRL cuando se presiona en combinación con cualquier otra tecla. Esto es muy bueno porque la tecla de bloqueo de mayúsculas está en su fila de inicio, muy cerca de la posición de reposo natural de sus manos. En Mac, puede lograrlo usando Karabiner y hay muchos teclados mecánicos que le permiten configurarlo, así como el Ultimate Hacking Keyboard.
+
+## Moviéndose increíblemente rápido con Vim Motion
+
+Para hacer cosas en Vim, usa ** comandos **. Los comandos son acciones que tienen un efecto en su editor. Hay muchos comandos diferentes que hacen cosas diferentes. ** Movimientos ** son comandos que usas para moverte en ** modo Normal ** (pronto aprenderás que son capaces de mucho más).
+
+Es hora de practicar algunos movimientos básicos para moverte increíblemente rápido por tu editor. ¡Wiho!
+
+> Recuerde que puede navegar por este archivo usando hjkl:
