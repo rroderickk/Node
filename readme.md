@@ -471,21 +471,20 @@ Estos son otros movimientos que pueden resultar útiles de vez en cuando:
 - Escriba `gg` para ir al principio del archivo.
 - Utilice `{line} gg` para ir a una línea específica.
 - Utilice `G` para ir al final del archivo.
-- Escriba `%` saltar a la coincidencia `({[]})`.
+- Escriba `%` saltar a la coincidencia `({[]})`.   
 
 Intente volver al principio de este archivo con `gg`, luego vuelva con` G`.
 
-Y ahora salte entre estos dos paréntesis coincidentes hasta que quiera irse a dormir:
+Y ahora salte entre estos dos paréntesis coincidentes hasta que quiera irse a dormir:   
 
-´´´ 
+´´´   
 mecanografiado
              empezar aquí f [%
                  \
                   \
                    v
 const bagOfFoods = [["pepino"], ["tomate", "patata"]];
-´´´
-
+´´´    
 ¡Y eso es todo! Felicítate a ti mismo. Acabas de asimilar los movimientos de Vim.
 
 #SIGUE INDAGANDO Y APRENDERAS MAS!
