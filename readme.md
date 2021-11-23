@@ -4,9 +4,9 @@ en la consola:
 
 - node conceptos\monohilo.js = mostrando outputs ocasionando errores
 
-## ¡Introducción! branch psicologico y aprendes donde aprendes algo nuevo.
+## ¡Introducción! branch psicologico donde prendes algo nuevo.
 
-Aquí aprenderá sobre Vim y estará preparado para lo que está por venir:
+Aquí aprenderás sobre Vim y estarás preparado para lo que está por venir:
 
 > Vim es para programadores que quieren mejorar su juego. En manos de un experto, Vim tritura el texto a la velocidad del pensamiento.
 
@@ -335,16 +335,16 @@ function helloVimWorld () {
 
 ## Moviéndose verticalmente
 
-A partir de `k` y` j`, pasamos a una forma más rápida de maniobrar verticalmente con:
+A partir de `k` y` j`, pasamos a una forma más rápida de maniobrar verticalmente con:    
 
-- `}` salta párrafos enteros hacia abajo
-- `{` de manera similar pero hacia arriba
-- `CTRL-D` le permite bajar media página desplazándose por la página
-- `CTRL-U` te permite subir media página también desplazándote
+- `}` salta párrafos enteros hacia abajo    
+- `{` de manera similar pero hacia arriba    
+- `CTRL-D` le permite bajar media página desplazándose por la página    
+- `CTRL-U` te permite subir media página también desplazándote                
 
-Suba y baje este archivo usando `{` y `}` primero. Luego compárelo con el uso de `CTRL-D` y` CTRL-U`. Utilice el "STOP" a continuación como marcador: D.
+Suba y baje este archivo usando `{` y `}` primero. Luego compárelo con el uso de `CTRL-D` y` CTRL-U`. Utilice el "STOP" a continuación como marcador: D.   
 
-''
+´´´
 ----------------------------
 ----------- ----------------
 ---------  PARE  -----------
@@ -353,105 +353,105 @@ Suba y baje este archivo usando `{` y `}` primero. Luego compárelo con el uso d
              |
              |
              v continúa aquí
-''
+´´´
 
-## Movimientos verticales de alta precisión con patrón de búsqueda
+## Movimientos verticales de alta precisión con patrón de búsqueda            
 
-Para moverse a cualquier lugar dentro de un archivo cuando tiene un objetivo en mente, la mejor opción es buscar usando:
+Para moverse a cualquier lugar dentro de un archivo cuando tiene un objetivo en mente, la mejor opción es buscar usando:   
 
-- `/ {patrón}` para buscar hacia adelante
-- `? {patrón}` para buscar hacia atrás
+- `/ {patrón}` para buscar hacia adelante    
+- `? {patrón}` para buscar hacia atrás   
 
-Demos una vuelta por la búsqueda. Últimamente me he dedicado a la agricultura, pero no soy muy bueno en eso. El campo de abajo tiene un montón de malas hierbas y un pepino solitario. Intente usar la búsqueda para colocar el cursor exactamente en ese pepino. (Y recuerde que para ejecutar una búsqueda debe presionar `ENTER` al final del comando)
+Demos una vuelta por la búsqueda. Últimamente me he dedicado a la agricultura, pero no soy muy bueno en eso. El campo de abajo tiene un montón de malas hierbas y un pepino solitario. Intente usar la búsqueda para colocar el cursor exactamente en ese pepino. (Y recuerde que para ejecutar una búsqueda debe presionar `ENTER` al final del comando)    
 
-''
---------------------------
+´´´
+------------------------------
 --- v ---------------- v -----
------------ v --- pepino ---
+------------- v --- pepino ---
 ----- v ----------- v --------
---------------------------
-''
+------------------------------
+´´´
 
-> Para resaltar la búsqueda. Es posible que deba actualizar a la configuración de vscode vim. Abra la configuración de usuario y asegúrese de que la opción vim.hlsearch esté habilitada. Ahora, cuando busque, el texto coincidente se resaltará en el editor.
+> Para resaltar la búsqueda. Es posible que deba actualizar a la configuración de vscode vim. Abra la configuración de usuario y asegúrese de que la opción vim.hlsearch esté habilitada. Ahora, cuando busque, el texto coincidente se resaltará en el editor.    
 
-¡Impresionante! `/ pepino` te trajo exactamente donde tenías que ir. Sin embargo, no es necesario que escriba la palabra completa, encontrará que la mayoría de las veces 2 o 3 caracteres son suficientes. Prueba `/ cuc`:
+¡Impresionante! `/ pepino` te trajo exactamente donde tenías que ir. Sin embargo, no es necesario que escriba la palabra completa, encontrará que la mayoría de las veces 2 o 3 caracteres son suficientes. Prueba `/ cuc`:    
 
-''
---------------------------
+´´´
+------------------------------
 --- v ---------------- v -----
------------ v --- pepino ---
+------------- v --- pepino ---
 ----- v ----------- v --------
---------------------------
-''
+------------------------------
+´´´
 
-Mucho más rápido, ¿verdad? Si hay varias coincidencias del mismo patrón, puede saltar rápidamente entre ellas usando:
+Mucho más rápido, ¿verdad? Si hay varias coincidencias del mismo patrón, puede saltar rápidamente entre ellas usando:    
 
-- `n` para pasar al siguiente partido
-- `N` para ir al partido anterior
+- `n` para pasar al siguiente partido   
+- `N` para ir al partido anterior   
 
-Escribe `n` y saltas a la siguiente aparición de` cuc` (Vim mantiene activa tu última búsqueda)
+Escribe `n` y saltas a la siguiente aparición de` cuc` (Vim mantiene activa tu última búsqueda)   
 
-''
---------------------------
+´´´
+-----------------------------
 --- v - pepino ------ v -----
------------ v --- pepino ---
------ v ----------- v --------
-pepino------------------
-''
+----------- v --- pepino ----
+----- v ----------- v -------
+pepino-----------------------
+´´´
 
-Ahora escribe "N" para ir hacia la barra hacia la parte superior del campo, luego "n" hacia adelante hasta este brillante "pepino".
+Ahora escribe "N" para ir hacia la barra hacia la parte superior del campo, luego "n" hacia adelante hasta este brillante "pepino".    
 
-Puede utilizar `? {Patrón}` para buscar hacia arriba. El uso de `?` Sin un patrón cambia la dirección de la búsqueda actual. Al cambiar la dirección, `n` y` N` también cambian de dirección.
+Puede utilizar `? {Patrón}` para buscar hacia arriba. El uso de `?` Sin un patrón cambia la dirección de la búsqueda actual. Al cambiar la dirección, `n` y` N` también cambian de dirección.   
 
 Intente escribir `?` Y presione `ENTER`. Y luego vuelve a este 'pepino' mágico.
 
-El `{patrón}` en `/ {patrón}` no tiene que ser una cadena literal. Es una expresión regular. ¡Oh, el gran poder de las expresiones regulares!
+El `{patrón}` en `/ {patrón}` no tiene que ser una cadena literal. Es una expresión regular. ¡Oh, el gran poder de las expresiones regulares!   
 
-Intente usar el siguiente comando de búsqueda para encontrar títulos de segundo nivel en este documento. Observe cómo cuando llegue al final, comenzará de nuevo en la parte superior. Revise todo el documento hasta encontrar el siguiente título.
+Intente usar el siguiente comando de búsqueda para encontrar títulos de segundo nivel en este documento. Observe cómo cuando llegue al final, comenzará de nuevo en la parte superior. Revise todo el documento hasta encontrar el siguiente título.   
 
-- Escriba `/ ##. *`
+- Escriba `/ ##. *`   
 
-## Moviéndose más rápido con recuentos
+## Moviéndose más rápido con recuentos   
 
-Los recuentos son números que le permiten multiplicar el efecto de un comando:
+Los recuentos son números que le permiten multiplicar el efecto de un comando:   
 
-''
+´´´
 {cuenta} {comando}
-''
+´´´
 
-¡Pruébelos usted mismo! Escriba "2w" para avanzar dos palabras:
+¡Pruébelos usted mismo! Escriba "2w" para avanzar dos palabras:   
 
-''
+´´´
 escriba wwww ==> v v v v v
               palabra. son dos palabras
               palabra. son dos palabras
 tipo 3w2w ==> ^ ^
-''
+´´´
 
-Pruebe con `5j` para saltar las líneas de archivo a continuación`:
+Pruebe con `5j` para saltar las líneas de archivo a continuación`:   
 
--X
-0 | <- sitio de aterrizaje
--X
+-X   
+0 | <- sitio de aterrizaje   
+-X   
 
-Intente encontrar una matriz dentro de una matriz:
+Intente encontrar una matriz dentro de una matriz:    
 
-''
+´´´
 tipo f [;; ==> vv v
                [[1], [1, 2], [3]]
                [[1], [1, 2], [3]]
 tipo 3f [==> ^
-''
+´´´
 
 Intente saltar al segundo pepino con `2 / cuc`:
 
-''
+´´´
 --------------------------
 --- v - pepino ------ v -----
 ----------- v --- pepino ---
 ----- v ----------- v --------
 pepino------------------
-''
+´´´
 
 ¿Guay, verdad?
 
@@ -477,13 +477,14 @@ Intente volver al principio de este archivo con `gg`, luego vuelva con` G`.
 
 Y ahora salte entre estos dos paréntesis coincidentes hasta que quiera irse a dormir:
 
-`` mecanografiado
+´´´ 
+mecanografiado
              empezar aquí f [%
                  \
                   \
                    v
 const bagOfFoods = [["pepino"], ["tomate", "patata"]];
-''
+´´´
 
 ¡Y eso es todo! Felicítate a ti mismo. Acabas de asimilar los movimientos de Vim.
 
