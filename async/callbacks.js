@@ -16,9 +16,18 @@ function soyAsincronaDos(a, b) {
     dividoPorDos * b +
       " :b dividir es multiplicar por el inverso multipilcativo de b, \nelemento inverso asociado a la multiplicacion es a por uno partido b"
   );
-  console.log((a * 1) / b);
+  function chao(rodri) {
+    console.log("Y adios " + rodri + " buena noche!");
+  }
+  console.log("Entonces es igual a " + (a * 1) / b);
+  setTimeout(function (miCallback = soyAsincrona("wtf")) {
+    console.log("mientras estoy siendo asincrona " + [miCallback]);
+    chao("rodri");
+  }, 1000);
 }
 
+console.log("Iniciando proceso...");
 soyAsincronaDos(8, 8);
+console.log("Terminando proceso...");
 /* Estamos ocupados o estamos siendo productivos?
 ENFOCATE */
