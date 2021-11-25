@@ -1,4 +1,4 @@
-Esta historia es muy interesante y viene a tema. La leí en el libro “Decídete”, de Chip Heath y Dan Heath.
+#### Esta historia es muy interesante y viene a tema. La leí en el libro “Decídete”, de Chip Heath y Dan Heath.
 
 En los 90´s, las banda de rock eran muy populares y la mejor manera de ganar dinero de estas era mediante los conciertos que daban. Una banda promedio hacia 1 concierto por semana, aveces 2, pero Van Halen queria aprovechar aquellos tiempos de éxito, por lo llegaban a tener incluso 3 conciertos por semana, ademas de hacerlos con mucha infraestructura, show de fuegos artificiales, grandes pantallas y un sonido impresionante.
 Por lo tanto tenían que confiar en el personal de staff del sitio donde sería el concierto, su propio staff de la banda no era capaz de encargarse de toda la logisitica e infraestructura por si mismos.
@@ -13,10 +13,12 @@ Otro de las ideas de Seth era pedir siempre en su camerino un recipiente grande 
 Gente del staff relata como Seth entraba inmediatamente llegaba al camerino para validar este asunto con las golosinas, y se dedicaba a buscar dentro un solo chocolate de color café. Y si lo encontraba lanzaba la mesa por los aires sin importar lo que estuviera sobre ella.
 A ojos de cualquier persona qué Set se “obsesionara” con este asunto era demasiado y sin sentido.
 
-Prepárate a cambiar tu percepción.
+##Prepárate a cambiar tu percepción.
 
-Seth no hacía esto porque fuera una diva o todo poderoso. Era su forma, mediante una obra maestra, de recordarse que tenía que tomar una decision y hacer algo. Sí él encontraba un chocolate café, inmediatamente salía y pedía que revisaran de nuevo la instalacion: “Estos no ponen atencion a los detalles”.
-El no poder atencion a esto de los chocolates era un reflejo que tampoco ponian atencion a los detalles mas importantes, y él no iba a arriesgarse asi.
-Esta era su manera de recordarse, fuera del ajetreo del dia a dia y el desgaste de los shows, que tenía que hacer algo, que tenía que revisar, que tenía que pensar. Esto tan simple pero efectivo era su recordatorio de entrar en accion.
+Seth no hacía esto porque fuera una diva o todo poderoso. Era su forma, mediante una obra maestra, de recordarse que tenía que tomar una decision y hacer algo. Sí él encontraba un chocolate café, inmediatamente salía y pedía que revisaran de nuevo la instalacion: **“Estos no ponen atencion a los detalles”.**
+**El no poder atencion a esto de los chocolates era un reflejo que tampoco ponian atencion a los detalles mas importantes, y él no iba a arriesgarse asi.**
+Esta era su manera de recordarse, fuera del ajetreo del dia a dia y el desgaste de los shows, que tenía que hacer algo, que tenía que revisar, que tenía que pensar. **Esto tan simple pero efectivo era su recordatorio de entrar en accion.**
 
-Trata de ponerte un recordatorio que te haga salir de tu dia a dia. Ver un post it todo el tiempo en tu monitor solo hace que te acostumbres a él. Necesitas una señal mas intensa y que venga de fuera de tu ambiente.
+Trata de ponerte un **recordatorio** que te haga salir de tu dia a dia. Ver un post it todo el tiempo en tu monitor solo hace que te acostumbres a él. 
+
+# Necesitas una señal mas intensa y que venga de fuera de tu ambiente.
