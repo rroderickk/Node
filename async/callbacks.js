@@ -14,9 +14,11 @@ function soyAsincronaDos(a, b) {
   );
   console.log(
     dividoPorDos * b +
-      " a:b dividir es multiplicar por el inverso multipilcativo de b, \nelemento inverso asociado a la multiplicacion es a por uno partido b"
+      " :b dividir es multiplicar por el inverso multipilcativo de b, \nelemento inverso asociado a la multiplicacion es a por uno partido b"
   );
   console.log((a * 1) / b);
 }
 
-soyAsincronaDos(2, 2);
+soyAsincronaDos(8, 8);
+/* Estamos ocupados o estamos siendo productivos?
+ENFOCATE */
