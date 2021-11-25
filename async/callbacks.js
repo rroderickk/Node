@@ -1,5 +1,12 @@
+const cortana = " La iA!";
+
 function soyAsincrona(hola) {
-  console.log("Probando la funcion y saludando a " + hola);
+  console.log(
+    "[+] Hola!, soy " +
+      cortana +
+      " y estoy probando la funcion y saludando a " +
+      hola
+  );
 }
 
 soyAsincrona("rodri");
@@ -16,8 +23,15 @@ function soyAsincronaDos(a, b) {
     dividoPorDos * b +
       " :b dividir es multiplicar por el inverso multipilcativo de b, \nelemento inverso asociado a la multiplicacion es a por uno partido b"
   );
-  function chao(rodri) {
-    console.log("Y adios " + rodri + " buena noche!");
+  function chao(rodri, otroCallback) {
+    setTimeout(function (otrocallback) {
+      console.log(
+        "[-] Y adios " +
+          [(rodri = "platzi")] +
+          " buena noche! recuerda mi nombre soy" +
+          cortana
+      );
+    }, 1000);
   }
   console.log("Entonces es igual a " + (a * 1) / b);
   setTimeout(function (miCallback = soyAsincrona("wtf")) {
@@ -26,8 +40,8 @@ function soyAsincronaDos(a, b) {
   }, 1000);
 }
 
-console.log("Iniciando proceso...");
+console.log("[+] Iniciando proceso...");
 soyAsincronaDos(8, 8);
-console.log("Terminando proceso...");
+console.log("[-] Terminando proceso...");
 /* Estamos ocupados o estamos siendo productivos?
 ENFOCATE */
