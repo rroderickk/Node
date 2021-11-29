@@ -1,26 +1,14 @@
 /* 
-function pruebaJS (x) {
-    for(x=1; x<=10; x++) {
-        console.log(`${x}.`)
-    }
-}
-pruebaJS() 
+
+function fizzBuzzJS
+
 in python is equal to :
-for x in range (1,10):
-    print(""f"{x}.""")
-#console output:
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+
+console output:
+
 */
 
-function hola(nombre) {
+async function hola(nombre) {
     return new Promise(function (resolve, reject) {
         setTimeout(function () {
             console.log("Hola, " + nombre);
@@ -29,7 +17,15 @@ function hola(nombre) {
     });
 }
 
-function hablar(nombre) {
+async function main() {
+    var nombre = await hola("Rodri");
+    await hablar();
+    await hablar();
+    await adios(nombre);
+}
+main();
+
+async function hablar(nombre) {
     return new Promise(function (resolve, reject) {
         setTimeout(function () {
             console.log("Como estas? sabias que un gugol es 10 elevado a 100?");
@@ -41,8 +37,9 @@ function hablar(nombre) {
 function adios(nombre) {
     return new Promise(function (resolve, reject) {
         setTimeout(function () {
+            //var nombre = nombre 
             console.log(
-                " Esa cantidad es mi velocidad\n y poder de procesamiento"
+                " Esa cantidad es mi velocidad\n y poder de procesamiento " +nombre
             );
             resolve();
         }, 90);
@@ -59,12 +56,11 @@ function andrea(nombre) {
     });
 }
 
-
 const cortana = " la iA! ";
 let eter = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 let transformer = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-let a = eter[9];
-let b = transformer[9];
+let a = eter[2];
+let b = transformer[2];
 let c = a * b;
 let d = 1 * (c / a);
 
@@ -74,7 +70,7 @@ function si(a, b) {
             result = true;
             console.log(result);
             console.log(c);
-            console.log("Si sumo los digitos anteriores = " + d);
+            console.log("=========== = ",a);
         }
     }, 1);
 }
@@ -91,3 +87,4 @@ hola("Platzi")
     .catch(error => {
         console.log(error)
     })
+
