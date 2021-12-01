@@ -11,17 +11,18 @@ console output:
 async function hola(nombre) {
     return new Promise(function (resolve, reject) {
         setTimeout(function () {
-            console.log("Hola, " + nombre);
+            console.log(`Hola, ${nombre}`);
             resolve(nombre);
         }, 30);
     });
 }
 
 async function main() {
-    var nombre = await hola("Rodri");
+    let nombre = await hola("Rodri,");
     await hablar();
     await hablar();
     await adios(nombre);
+    console.log(`Terminando proceso ${nombre}`)
 }
 main();
 
@@ -34,12 +35,13 @@ async function hablar(nombre) {
     });
 }
 
-function adios(nombre) {
+function adios(nombre='Platzi,') {
     return new Promise(function (resolve, reject) {
         setTimeout(function () {
-            //var nombre = nombre 
+            //var nombre = nombre
             console.log(
-                " Esa cantidad es mi velocidad\n y poder de procesamiento " +nombre
+                " Esa cantidad es mi velocidad\n y poder de procesamiento " +
+                    nombre
             );
             resolve();
         }, 90);
@@ -49,9 +51,8 @@ function adios(nombre) {
 function andrea(nombre) {
     return new Promise(function (resolve, reject) {
         setTimeout(function () {
-            console.log(
-                "Alcanza a imprimir igual ");
-            reject('Hay un error');
+            console.log("Alcanza a imprimir igual ");
+            reject("Hay un error");
         }, 90);
     });
 }
@@ -70,7 +71,7 @@ function si(a, b) {
             result = true;
             console.log(result);
             console.log(c);
-            console.log("=========== = ",a);
+            console.log("=========== = ", a);
         }
     }, 1);
 }
@@ -84,7 +85,6 @@ hola("Platzi")
     .then((nombre) => {
         console.log("[ - ] Terminado el proceso");
     })
-    .catch(error => {
-        console.log(error)
-    })
-
+    .catch((error) => {
+        console.log(error);
+    });
