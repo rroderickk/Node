@@ -1,9 +1,9 @@
-#### Para ver la clase en secuencia sincrona/asincrona ejecutas el codigo en la consola:
+####  <span style="color:green">Para ver la clase en secuencia sincrona/asincrona ejecutas el codigo en la consola:</span>
     - npx nodemon modulos/globales.js 
 
-## ¿SABIAS QUE SI PRESIONAS LA TECLA PUNTO AQUI EN GITHUB EN ESTE CODIGO SE TE ABRE EL VISUAL STUDIO CODE WEB? PRUEBALO!!!!!!!!!!!
+## **<span style="color:blue">¿SABIAS QUE SI PRESIONAS LA TECLA PUNTO AQUI EN GITHUB EN ESTE CODIGO SE TE ABRE EL VISUAL STUDIO CODE WEB? PRUEBALO!!!!!!!!!!!**</span>
 
-# YA DOMINASTE LA PRIMERA PARTE PARA CODIFICAR MAS RAPIDO? OK VAMOS A AUMENTAR TU VELOCIDAD EN UN 10x 
+# **<span style="color:gold">YA DOMINASTE LA PRIMERA PARTE PARA CODIFICAR MAS RAPIDO? OK VAMOS A AUMENTAR TU VELOCIDAD EN UN 10x </span>** 
 
 ## Editando con operadores VIM LIKE MAGIC
 
