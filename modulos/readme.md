@@ -1,4 +1,4 @@
-#### si ejecutas el codigo en la consola:
+#### para ver la clase en secuencia sincrona/asincrona ejecutas el codigo en la consola:
     - npx nodemon modulos/globales.js //verás la clase en secuencia.   
 
 # YA DOMINASTE LA PRIMERA PARTE PARA CODIFICAR MAS RAPIDO? OK VAMOS A AUMENTAR TU VELOCIDAD EN UN 10x 
