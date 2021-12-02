@@ -5,65 +5,63 @@
 
 # YA DOMINASTE LA PRIMERA PARTE PARA CODIFICAR MAS RAPIDO? OK VAMOS A AUMENTAR TU VELOCIDAD EN UN 10x 
 
-# Editing Like Magic With Vim Operators
+## Editando con operadores VIM LIKE MAGIC
 
-To do things in Vim you use **commands**. Commands are actions that have an effect in your editor. There's lots of different commands that do different things. Earlier we saw how **motions** let you move around in **Normal mode**.
+Para hacer cosas en Vim, usa **comandos**. Los comandos son acciones que tienen un efecto en su editor. Hay muchos comandos diferentes que hacen cosas diferentes. Anteriormente vimos cómo los ** movimientos ** te permiten moverte en **modo Normal**.
 
-**Operators** are commands that let you perform actions to change the content of your editor.
+Los **operadores** son comandos que le permiten realizar acciones para cambiar el contenido de su editor.
 
-> Remember that you can navigate this file using hjkl:
->
+> Recuerda puedes navegar este texto usando hjkl:
 > ```
 >            ↑
 >      ← h j k l →
 >          ↓
-> ```
->
 > or {} or CTRL-U, CTRL-D
+> ```
 
-You use **operators** in combination with **counts** and **motions** to define the range of text to which an action applies:
+Utiliza **operadores** en combinación con **recuentos** y **movimientos** para definir el rango de texto al que se aplica una acción:
 
 ```
-   what to do (delete, change...)
+   que hacer? (borrar, cambiar...)
       /
-     /      how many times
+     /      cuantas veces 
     /         /
    v         v
-{operator}{count}{motion}
+{operador}{recuento}{motion}
                     ^
                    /
                   /
-           where to perform
-             the action
+           donde realizar 
+             la accíon
 ```
 
-For example, take `d2w`. It tells Vim to **d**elete **2** **w**ords. Try it!
+Por ejemplo, presione `d2w`. Vim eliminará **d**elete (elimina) **2** **w**ords(palabras). intentalo!
 
 ```
-  start here
+ Inicia aqui 
   /
  /
 v
-DO NOT ENTER!
+NO ENTER!
 ```
 
-And now try removing `not` from the text below:
+Y ahora intente eliminar `not` del texto acontinuacion:
 
-> Remember that you can jump directly to the not word using the search motion /not (try it, and use any opportunity you find to practice motions)
+> Recuerda puedes saltar directamente a la not palabra usando el movimiento de busqueda /not (intentelo, y aproveche cualquier movimiento para practicar los movimientos) 
 
 ```
-           remove this
+           Elimina esto
              /
             /
            v
-You shall not pass!!
+No pases de aqui!!
 ```
 
-Yep. You could achieve that using `dw`. Interesting... So all the motions you learned earlier, which were super useful on their own terms to move fast within a file, can also be used to edit text equally fast.
+Si!. Podrias logarlo usando `dw`. Interesante... Entonces, todos los movimientos que aprendió anteriormente, que fueron muy útiles en sus propios términos para moverse rápidamente dentro de un archivo, también se pueden usar para editar texto con la misma rapidez.
 
-Wow! Awesome right?
+Wow! Impresionante verdad?
 
-# Before we start: Undoing and redoing
+## Before we start: Undoing and redoing
 
 We're going to be doing a lot of editing in this chapter so this is the perfect place to learn how to undo and redo things in Vim in case you make a mistake (Don't think too much of it, I still make mistakes after 8 years using Vim). So if you try some command and it doesn't work out as you expect. **DON'T PANIC!**. Press `u` to undo and you last change will be reverted. You can continue pressing `u` if several things went sideways. If you want to redo, type `<CTRL-R>`.
 
