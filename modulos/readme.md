@@ -16,7 +16,7 @@ Los **operadores** son comandos que le permiten realizar acciones para cambiar e
 >            ↑
 >      ← h j k l →
 >          ↓
-> or {} or CTRL-U, CTRL-D
+> () or {} or CTRL-U, CTRL-D
 > ```
 
 Utiliza **operadores** en combinación con **recuentos** y **movimientos** para definir el rango de texto al que se aplica una acción:
@@ -61,28 +61,28 @@ Si!. Podrias logarlo usando `dw`. Interesante... Entonces, todos los movimientos
 
 Wow! Impresionante verdad?
 
-## Before we start: Undoing and redoing
+## Antes de comenzar: deshacer y rehacer
 
-We're going to be doing a lot of editing in this chapter so this is the perfect place to learn how to undo and redo things in Vim in case you make a mistake (Don't think too much of it, I still make mistakes after 8 years using Vim). So if you try some command and it doesn't work out as you expect. **DON'T PANIC!**. Press `u` to undo and you last change will be reverted. You can continue pressing `u` if several things went sideways. If you want to redo, type `<CTRL-R>`.
-
-```
-
-       |￣￣￣￣￣￣￣￣￣|
-       |  DON'T PANIC! |
-       |   u TO UNDO   |
-       |  C-R TO REDO  |
-       |＿＿＿＿＿＿＿＿＿|
+Vamos a editar mucho en este capítulo, por lo que este es el lugar perfecto para aprender a deshacer y rehacer cosas en Vim en caso de que cometa un error (no lo piense demasiado, todavía cometo errores después de 8 años usando Vim). Entonces, si prueba algún comando y no funciona como esperaba. **¡NO ENTRE EN PÁNICO!**. Presione `u` para deshacer y se revertirá el último cambio. Puede continuar presionando `u` si varias cosas salieron de lado. Si desea rehacer, escriba `<CTRL-R>`.
 
 ```
 
-## Practice Delete: Obliterate The Florkins!!
+     | |￣￣￣￣￣￣￣￣￣￣￣|￣￣￣|
+     | |  NO PANICO!       |     |
+     | |   u PARA DESHACER |  ___|
+     | |  Ctrl-R REHACER   |  \
+     | |＿＿＿＿＿＿＿＿＿＿ |___\
+     | |
+```
 
-The following scenarios are filled with florkins. A highly invasive and very dangerous alien species that resemble earth kittens but are nothing like kittens. Well... They're cute, and fluffy, and cuddly, but behind that facade there's a deadly and bloodthirsty hunter who can devour a full-sized blurkin in under 3 seconds (and if you're wondering... florkins are nothing like flerkens).
+## Practica Eliminar: Borrar Las Florkins!!
+
+Los siguientes escenarios están llenos de florkins. Una especie exótica altamente invasiva y muy peligrosa que se parece a los gatitos terrestres pero que no se parecen en nada a los gatitos. Bueno ... Son lindos, mullidos y tiernos, pero detrás de esa fachada hay un cazador mortal y sediento de sangre que puede devorar un borrón de tamaño completo en menos de 3 segundos (y si te estás preguntando ... los florkins no son nada como Flerkens).
 
 ```
      |￣￣￣￣￣￣￣￣￣|
-     | I WILL DEVOUR |
-     |  YOUR SOUL!!  |
+     | DEVORARÉÉËÉ   |
+     |    TU ALMA!!  |
      |＿＿＿＿＿＿＿＿＿|
      (\__/)  ||
      (•ㅅ•)  ||
@@ -90,24 +90,21 @@ The following scenarios are filled with florkins. A highly invasive and very dan
 |￣￣￣￣￣￣￣￣￣|
 |＿＿＿＿＿＿＿＿＿|
 ```
-
-> Try to combine the d operator with motions to obliterate these florkins. Test different motions and see which one works best. (if you struggle, take a look at the solutions at the bottom - search for /solutions, to come back here type <CTRL-O>)
+> Intente combinar el operador d con movimientos para eliminar estos florkins. Pruebe diferentes movimientos y vea cuál funciona mejor. (si tiene dificultades, eche un vistazo a las soluciones en la parte inferior; busque / solutions, para volver aquí escriba \<CTRL-O>)
 
 ```
-  #1. start here florkin avenger!
-  Can you obliterate these florkins with just one command?
+  #1. Inicia aqui florkin vengador!
+  Puedes eliminar estos florkins con un solo comando?
   /
- /
-v
+ /#try 'd5w'
+v dese aquí:
 florkin
 florkin
 florkin
 florkin
 florkin
 ```
-
-> Disclaimer: no florkins, blurkins nor flerkens were harmed in the making of these practice exercises. The `d` command only sends this exotic fauna to their natural habitat in the netherworld.
-
+> Descargo de responsabilidad: no se dañaron florkins, blurkins ni flerkens en la realización de estos ejercicios de práctica. El comando `d` solo envía esta fauna exótica a su hábitat natural en el inframundo.
 ```
   #2. start here!
   /
