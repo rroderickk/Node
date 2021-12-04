@@ -4,7 +4,7 @@ en la consola:
 
 - node conceptos\monohilo.js = mostrando outputs ocasionando errores
 
-## ¡Introducción! branch psicologico donde prendes algo nuevo.
+## **[chapter:][1]** ¡Introducción! branch psicologico donde prendes algo nuevo aumente su velocidad de codificacion por __4X__.
 
 Aquí aprenderás sobre Vim y estarás preparado para lo que está por venir:
 
@@ -486,4 +486,5 @@ const bagOfFoods = [["pepino"], ["tomate", "patata"]];
 ¡Y eso es todo! Felicítate a ti mismo. Acabas de asimilar los movimientos de Vim.
 
 #SIGUE INDAGANDO Y APRENDERAS MAS!
-# PARTE 2 EN LA CARPETA MODULOS
+
+# **[chapter:][2]** Quieres codificar mas rapido? por 10x [seeThePost](https://github.com/rroderickk/Node/tree/master/modulos)

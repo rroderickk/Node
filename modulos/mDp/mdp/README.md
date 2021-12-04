@@ -13,6 +13,8 @@
 - npm start
 - ve a tu localhost:
 
+# **[chapter:][1]** Quieres codificar mas rapido? aumente su velocidad por 4x [seeThePost](https://github.com/rroderickk/Node.git)
+
 # App created with CRA.
 
 ## Getting Started with Create React App

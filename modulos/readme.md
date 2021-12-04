@@ -4,6 +4,7 @@
 
 ## **<span style="color:blue">¿SABIAS QUE SI PRESIONAS LA TECLA PUNTO AQUI EN GITHUB EN ESTE CODIGO SE TE ABRE EL VISUAL STUDIO CODE WEB? PRUEBALO!!!!!!!!!!!**</span>
 
+# **[chapter:][1]** Quieres codificar mas rapido? velocidad aumentada por 4X [seeThePost](https://github.com/rroderickk/Node.git)
 # **<span style="color:gold">YA DOMINASTE LA PRIMERA PARTE PARA CODIFICAR MAS RAPIDO? OK VAMOS A AUMENTAR TU VELOCIDAD EN UN 10x </span>**
 
 ## Editando con operadores VIM LIKE MAGIC
