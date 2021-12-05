@@ -2,7 +2,14 @@
 
 <img src="./mDpScreenshot.png" alt="ScreenshotmDp"/>
 
-#### Debes tener instalado marked, bootstrap con la consola: 
+#### Dentro de la carpeta mdp/ ejecuta en la consola:
+
+-yarn
+-npx create-react-app . //el punto va incluido
+-npm init
+-npm start  
+
+#### Si no le gustó, Entonces debes tener instalado marked, bootstrap con la consola: 
 -npm install -g marked
 -npm install marked
 -npm install --save bootstrap
