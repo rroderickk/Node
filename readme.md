@@ -1,10 +1,10 @@
-*Bienvenido al la prueba de Node.js del curso de Platzi*. interés en aprender tecnologias ha alcanzado su punto máximo este año: __el número de búsquedas de la palabra aumentó más de diez veces entre 2020 y 2021, según Google Analytics__.   Los medios de comunicación, incluidos el New York Times, Washington Post y The Guardian, han publicado artículos extensos que investigan sus implicaciones. Empresas como Epic Games, Microsoft, Facebook y SK Telecom han anunciado públicamente planes para contratar mas y cada vez mas ingenieros de software de todo el mundo.
+_Bienvenido al la prueba de Node.js del curso de Platzi_. interés en aprender tecnologias ha alcanzado su punto máximo este año: **el número de búsquedas de la palabra aumentó más de diez veces entre 2020 y 2021, según Google Analytics**. Los medios de comunicación, incluidos el New York Times, Washington Post y The Guardian, han publicado artículos extensos que investigan sus implicaciones. Empresas como Epic Games, Microsoft, Facebook y SK Telecom han anunciado públicamente planes para contratar mas y cada vez mas ingenieros de software de todo el mundo.
 
 en la consola:
 
-- node conceptos\monohilo.js = mostrando outputs ocasionando errores
+-   node conceptos\monohilo.js = mostrando outputs ocasionando errores
 
-## **[chapter:][1]** ¡Introducción! branch psicologico donde prendes algo nuevo aumente su velocidad de codificacion por __4X__.
+## **[chapter:][1]** ¡Introducción! branch psicologico donde prendes algo nuevo aumente su velocidad de codificacion por **4X**.
 
 Aquí aprenderás sobre Vim y estarás preparado para lo que está por venir:
 
@@ -14,11 +14,11 @@ Aquí aprenderás sobre Vim y estarás preparado para lo que está por venir:
 
 Si no ha instalado VSCodeVim, ahora es el momento de hacerlo.
 
-- Abra la paleta de comandos con `CMD-SHIFT-P` en Mac `CTRL-SHIFT-P` en Windows / Linux.
-- Escriba "Extensión"
-- Seleccione `Extensiones: Instalar extensión`
-- Escriba `vim`
-- Instale la primera extensión que aparece (vscodevim).
+-   Abra la paleta de comandos con `CMD-SHIFT-P` en Mac `CTRL-SHIFT-P` en Windows / Linux.
+-   Escriba "Extensión"
+-   Seleccione `Extensiones: Instalar extensión`
+-   Escriba `vim`
+-   Instale la primera extensión que aparece (vscodevim).
 
 Cuando haya hecho eso, vuelva a este editor. Tu cursor ya no debería ser un | sino un rectángulo.
 
@@ -30,7 +30,7 @@ Ahora vamos a dar un paseo rápido. Salte al capítulo siguiente.
 
 ¿¡Oh no!? Si intentas escribir cosas con el curioso cursor en forma de rectángulo, ¿no pasa nada? ¿O suceden cosas extrañas? !!?
 
-щ(ﾟДﾟщ）:cry: :stuck_out_tongue_winking_eye:
+щ(ﾟ Д ﾟ щ）:cry: :stuck_out_tongue_winking_eye:
 
 Está bien. Toma un trago de tu cerveza. No he roto tu editor. AUN!.
 
@@ -49,6 +49,7 @@ Comencemos a practicar los conceptos básicos del movimiento en modo normal: `hj
      ← h j k l →
          ↓
 ```
+
 Recuerdas cuando intentaste moverte en un juego?piensa que estás en un juego. Descendiendo Las Mazmorras del Infinito en busca de tesoros ...
 
 ````
@@ -87,42 +88,91 @@ Recuerdas cuando intentaste moverte en un juego?piensa que estás en un juego. D
 |-=======================--$---==========#
                         |$$$$$|
                         tesoro
+                        |$$$$$|
+----------+-+-+-----+-+ |     |
+| $$$$    | | |        _______|
++-- --+$ $  | |$| | | |
+|$$$$$| |       | |   |
++---+ +-+-+-- +-+ | | |
+|  $| | | |   |   | | |
+| +-+ | | | | | --+ | |
+| | |    $  | |   | | |
+| | | | | |  $  --+-+ |
+|     | | | | |  $|   |
+| ----+-+-+-+-+---+----
+|$|^--+-+---+-----+-+---+-+-+---+---+-+---+-----+
+| |   | |   |     | |   | | | f |   | |   |     |
+| +-+ | | # +-+ --+ +-+ | | | # | +-+ +-- | ----+
+|  $|       | |    f| |           | | |   |   f |
+| |$+-+ | | | | +---+ | | | ----+-+ | | --+ --+-+
+| |   | | |$$$$$|     | | |  f$ |   |         | |
+| | | | +-+-+---+-- | | | +-+-+-+ +-+ +--- # -+ |
+| | | |     |   |   |   | | | |   | | |         |
++-+-+ | +---+ --+ | +---+-+ | | --+ f | | | | --+
+|     | |         |                 | | | | |   |
+| --+f| | | +-- --+--f--+ --+ | ----+ | +-+ +---+
+|   |     | |     |     |   |=|           |   |
++   +-----+-+-----+-----+---+-+-----------+-----+
+$$\   $$\  $$$$$$\  $$\   $$\  $$$$$$\        $$$$$$\ $$\ $$\      $$\
+$$ |  $$ |$$  __$$\ $$ |  $$ |$$  __$$\       \_$$  _|$  |$$$\    $$$ |
+$$ |  $$ |$$ /  $$ |$$ |  $$ |$$ /  $$ |        $$ |  \_/ $$$$\  $$$$ |
+$$$$$$$$ |$$$$$$$$ |$$$$$$$$ |$$$$$$$$ |        $$ |      $$\$$\$$ $$ |
+$$  __$$ |$$  __$$ |$$  __$$ |$$  __$$ |        $$ |      $$ \$$$  $$ |
+$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |        $$ |      $$ |\$  /$$ |
+$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |      $$$$$$\     $$ | \_/ $$ |
+\__|  \__|\__|  \__|\__|  \__|\__|  \__|      \______|    \__|     \__|
+
+$$$$$$$\  $$$$$$\  $$$$$$\  $$\   $$\ $$\
+$$  __$$\ \_$$  _|$$  __$$\ $$ |  $$ |$$ |
+$$ |  $$ |  $$ |  $$ /  \__|$$ |  $$ |$$ |
+$$$$$$$  |  $$ |  $$ |      $$$$$$$$ |$$ |
+$$  __$$<   $$ |  $$ |      $$  __$$ |\__|
+$$ |  $$ |  $$ |  $$ |  $$\ $$ |  $$ |
+$$ |  $$ |$$$$$$\ \$$$$$$  |$$ |  $$ |$$\
+\__|  \__|\______| \______/ \__|  \__|\__|
+
 ````
 
 ¡Sí! ¡Felicitaciones! ¡Ahora eres rico y puedes instalarte en un hermoso palacio ascii! :LOL:
 
 ```
-                                   |>>>
-                                   |
-                               _  _|_  _
-                              |;|_|;|_|;|
-                              \\.    .  /
+Cae
+Por
+Aqui
+Y toma
+La 
+Bandera
+
+    /                              |>>> ¡¡YOU WIN!!
+   /                               |
+  /                            _  _|_  _
+ /                            |;|_| |_|;|
+v                             \\.    .  /
                                \\:  .  /
                                 ||:   |
-                                ||:.  |
-                                ||:  .|
-                                ||:   |       \,/
-                                ||: , |            /`\
-                                ||:   |
-                                ||: . |
- __                            _||_   |
-    '--~~__            __ ----~    ~`---,
-           ~---__ ,--~'                  ~~----_____-~'
+                                ||\_ ,|
+                                ||:  _|
+                                ||: / |       \,/
+                                |   , |            /`\
+                                ||\   |
+                                ||: __|
+____                           _  _/  |
+    |______            ___----~    ~`---,
+           |~---__ ,--~'                  ~~----_____-~'
 ```
 
 Ahora que hemos aprendido los movimientos más básicos, echemos un vistazo a cómo puede hacer que su editor se comporte como está acostumbrado a: **Modo Insertar**. **El modo de inserción** es donde Vim se enfoca en insertar fragmentos de texto y código, al igual que un editor normal.
 
-- Presione `i` para entrar en **modo Insertar**.
-- Escriba `<ESC>`, `<CTRL - [>` o `<CTRL-C>` para volver al **Modo normal**.
+-   Presione `i` para entrar en **modo Insertar**.
+-   Escriba `<ESC>`, `<CTRL - [>` o `<CTRL-C>` para volver al **Modo normal**.
 
 Completar estas oraciones. Practica usando `i` para entrar en **modo Insertar ** y `<ESC>` (o cualquiera de los otros) para entrar en **modo Normal**.
 
-
 ```
-Quiero aprender Vim porque ...   
-Mi comida favorita es...    
-Moriría por un ...    
-Si fuera a una isla desierta, llevaría un ...   
+Quiero aprender Vim porque ...
+Mi comida favorita es...
+Moriría por un ...
+Si fuera a una isla desierta, llevaría un ...
 ```
 
 ¡Impresionante! ¡Gran trabajo!
@@ -137,8 +187,8 @@ Si fuera a una isla desierta, llevaría un ...
 
 Comencemos con dos grandes movimientos para movernos horizontalmente:
 
-- `w` para mover palabra por palabra
-- `b` para retroceder palabra por palabra
+-   `w` para mover palabra por palabra
+-   `b` para retroceder palabra por palabra
 
 Usando `w` y `b`, vaya al final de la siguiente oración y viceversa.
 
@@ -149,6 +199,7 @@ Usando `w` y `b`, vaya al final de la siguiente oración y viceversa.
 v
 Aquí llegó Conan, el cimmerio, de cabello negro, ojos hoscos, espada en mano, ladrón, reaver, asesino, con gigantescas melancolías y gigantesca alegría, para pisar los tronos enjoyados de la Tierra bajo sus sandalias.
 ```
+
 Recuerdas cuando intentaste moverte en un juego?piensa que estás en un juego. Descendiendo Las Mazmorras del Infinito en busca de tesoros ...
 
 ¿Notaste algo interesante al mover palabra por palabra? ¿Qué pasó con "Conan" y "Cimmerian"? ¿Cómo trató Vim a esos molestos `,`? ¿Esperabas que `,` fuera parte de una palabra diferente? ¿No? ¿Habría disfrutado de poder saltar a lo largo de 'Cimmerian' en un solo salto?
@@ -165,8 +216,8 @@ y estos de abajo también
 
 Vim también tiene el concepto de tipos especiales de palabras (con letras, dígitos y números) que también incluyen caracteres especiales como., (, {, Etc. Se llaman **WORDs** en la jerga de Vim. `Cimmerian` y `Conan, `son dos **palabras** y solo una **PALABRA**. Y al igual que puedes mover palabra por palabra usando `w` y `b`, puedes usar la versión en mayúsculas para mover **PALABRA** por **WORD**. ¡Pruébalo!
 
-- `W` para mover palabra por PALABRA
-- `B` para retroceder PALABRA por PALABRA
+-   `W` para mover palabra por PALABRA
+-   `B` para retroceder PALABRA por PALABRA
 
 ```
  empieza aqui
@@ -210,8 +261,9 @@ escriba WWW ==> ^ ^ ^ ^
 ```
 
 Ahora intentemos algo diferente:
-- `e` para saltar al final de una palabra
-- `ge` para saltar hasta el final de la palabra anterior
+
+-   `e` para saltar al final de una palabra
+-   `ge` para saltar hasta el final de la palabra anterior
 
 ¡Intentalo!
 
@@ -222,10 +274,11 @@ Ahora intentemos algo diferente:
 v
 Aquí llegó Conan, el cimmerio, de cabello negro, ojos hoscos, espada en mano, ladrón, reaver, asesino, con gigantescas melancolías y gigantesca alegría, para pisar los tronos enjoyados de la Tierra bajo sus sandalias.
 ```
+
 Al igual que `w` y` b`, `e` y `ge` tienen un equivalente para WORD:
 
-- `E` es como `e` pero opera en PALABRAS
-- `gE` es como `ge` pero opera en PALABRAS
+-   `E` es como `e` pero opera en PALABRAS
+-   `gE` es como `ge` pero opera en PALABRAS
 
 ```
  empieza aqui
@@ -239,8 +292,8 @@ Aquí llegó Conan, el cimmerio, de cabello negro, ojos hoscos, espada en mano .
 
 Los movimientos de los personajes le permiten moverse horizontalmente de forma rápida y con alta precisión:
 
-- Utilice `f{carácter}` (buscar) para pasar a la siguiente aparición de un carácter en una línea.
-- Utilice `F{carácter}` para encontrar la aparición anterior de un carácter
+-   Utilice `f{carácter}` (buscar) para pasar a la siguiente aparición de un carácter en una línea.
+-   Utilice `F{carácter}` para encontrar la aparición anterior de un carácter
 
 Por ejemplo, `f (` le envía a la siguiente aparición de `(`. ¡Pruébelo!
 
@@ -280,8 +333,8 @@ escriba wwww ==> ^ ^ ^ ^ ^
 
 Además de `f`, Vim también ofrece el comando `t` (hasta):
 
-- Utilice `t{carácter}` para mover el cursor justo antes de la siguiente aparición de un carácter (piense en `t{carácter}` de mover el cursor hasta ese carácter).
-- Nuevamente, puede usar `T{carácter}` para hacer lo mismo que `t{carácter}` pero al revés
+-   Utilice `t{carácter}` para mover el cursor justo antes de la siguiente aparición de un carácter (piense en `t{carácter}` de mover el cursor hasta ese carácter).
+-   Nuevamente, puede usar `T{carácter}` para hacer lo mismo que `t{carácter}` pero al revés
 
 Si la diferencia entre los comandos f y t aún no está del todo clara, aquí hay un ejemplo que compara ambos:
 
@@ -316,10 +369,10 @@ escriba fd ;; ==> v v v v
 
 ## Moviéndose horizontalmente de forma extrema
 
-- `0`: se mueve al primer carácter de una línea
-- `^`: se desplaza al primer carácter que no esté en blanco de una línea
-- `$`: se mueve al final de una línea
-- `g_`: Se mueve al carácter que no está en blanco al final de una línea
+-   `0`: se mueve al primer carácter de una línea
+-   `^`: se desplaza al primer carácter que no esté en blanco de una línea
+-   `$`: se mueve al final de una línea
+-   `g_`: Se mueve al carácter que no está en blanco al final de una línea
 
 Experimente a continuación. Intente llegar a todos los extremos en el siguiente fragmento de código:
 
@@ -337,14 +390,14 @@ function helloVimWorld () {
 
 ## Moviéndose verticalmente
 
-A partir de `k` y` j`, pasamos a una forma más rápida de maniobrar verticalmente con:    
+A partir de `k` y` j`, pasamos a una forma más rápida de maniobrar verticalmente con:
 
-- `}` salta párrafos enteros hacia abajo    
-- `{` de manera similar pero hacia arriba    
-- `CTRL-D` le permite bajar media página desplazándose por la página    
-- `CTRL-U` te permite subir media página también desplazándote                
+-   `}` salta párrafos enteros hacia abajo
+-   `{` de manera similar pero hacia arriba
+-   `CTRL-D` le permite bajar media página desplazándose por la página
+-   `CTRL-U` te permite subir media página también desplazándote
 
-Suba y baje este archivo usando `{` y `}` primero. Luego compárelo con el uso de `CTRL-D` y` CTRL-U`. Utilice el "STOP" a continuación como marcador: D.   
+Suba y baje este archivo usando `{` y `}` primero. Luego compárelo con el uso de `CTRL-D` y` CTRL-U`. Utilice el "STOP" a continuación como marcador: D.
 
 ```
 ----------------------------
@@ -357,26 +410,14 @@ Suba y baje este archivo usando `{` y `}` primero. Luego compárelo con el uso d
              v continúa aquí
 ```
 
-## Movimientos verticales de alta precisión con patrón de búsqueda            
+## Movimientos verticales de alta precisión con patrón de búsqueda
 
-Para moverse a cualquier lugar dentro de un archivo cuando tiene un objetivo en mente, la mejor opción es buscar usando:   
+Para moverse a cualquier lugar dentro de un archivo cuando tiene un objetivo en mente, la mejor opción es buscar usando:
 
-- `/{patrón}` para buscar hacia adelante    
-- `?{patrón}` para buscar hacia atrás   
+-   `/{patrón}` para buscar hacia adelante
+-   `?{patrón}` para buscar hacia atrás
 
-Demos una vuelta por la búsqueda. Últimamente me he dedicado a la agricultura, pero no soy muy bueno en eso. El campo de abajo tiene un montón de malas hierbas y un pepino solitario. Intente usar la búsqueda para colocar el cursor exactamente en ese pepino. (Y recuerde que para ejecutar una búsqueda debe presionar `ENTER` al final del comando)    
-
-```
-------------------------------
---- v ---------------- v -----
-------------- v --- pepino ---
------ v ----------- v --------
-------------------------------
-```
-
-> Para resaltar la búsqueda. Es posible que deba actualizar a la configuración de vscode vim. Abra la configuración de usuario y asegúrese de que la opción vim.hlsearch esté habilitada. Ahora, cuando busque, el texto coincidente se resaltará en el editor.    
-
-¡Impresionante! `/pepino` te trajo exactamente donde tenías que ir. Sin embargo, no es necesario que escriba la palabra completa, encontrará que la mayoría de las veces 2 o 3 caracteres son suficientes. Prueba `/cuc`:    
+Demos una vuelta por la búsqueda. Últimamente me he dedicado a la agricultura, pero no soy muy bueno en eso. El campo de abajo tiene un montón de malas hierbas y un pepino solitario. Intente usar la búsqueda para colocar el cursor exactamente en ese pepino. (Y recuerde que para ejecutar una búsqueda debe presionar `ENTER` al final del comando)
 
 ```
 ------------------------------
@@ -384,13 +425,28 @@ Demos una vuelta por la búsqueda. Últimamente me he dedicado a la agricultura,
 ------------- v --- pepino ---
 ----- v ----------- v --------
 ------------------------------
+```
+
+> Para resaltar la búsqueda. Es posible que deba actualizar a la configuración de vscode vim. Abra la configuración de usuario y asegúrese de que la opción vim.hlsearch esté habilitada. Ahora, cuando busque, el texto coincidente se resaltará en el editor.
+
+¡Impresionante! `/pepino` te trajo exactamente donde tenías que ir. Sin embargo, no es necesario que escriba la palabra completa, encontrará que la mayoría de las veces 2 o 3 caracteres son suficientes. Prueba `/cuc`:
 
 ```
-Mucho más rápido, ¿verdad? Si hay varias coincidencias del mismo patrón, puede saltar rápidamente entre ellas usando:    
-- `n` para pasar al siguiente partido   
-- `N` para ir al partido anterior   
+------------------------------
+--- v ---------------- v -----
+------------- v --- pepino ---
+----- v ----------- v --------
+------------------------------
+
 ```
-Escribe `n` y saltas a la siguiente aparición de` cuc` (Vim mantiene activa tu última búsqueda)   
+
+Mucho más rápido, ¿verdad? Si hay varias coincidencias del mismo patrón, puede saltar rápidamente entre ellas usando:
+
+-   `n` para pasar al siguiente partido
+-   `N` para ir al partido anterior
+
+```
+Escribe `n` y saltas a la siguiente aparición de` cuc` (Vim mantiene activa tu última búsqueda)
 
 -----------------------------
 --- v - pepino ------ v -----
@@ -399,40 +455,44 @@ Escribe `n` y saltas a la siguiente aparición de` cuc` (Vim mantiene activa tu 
 pepino-----------------------
 ```
 
-Ahora escribe `N` para ir hacia la barra hacia la parte superior del campo, luego "n" hacia adelante hasta este brillante "pepino".    
+Ahora escribe `N` para ir hacia la barra hacia la parte superior del campo, luego "n" hacia adelante hasta este brillante "pepino".
 
-Puede utilizar `?{Patrón}` para buscar hacia arriba. El uso de `?` Sin un patrón cambia la dirección de la búsqueda actual. Al cambiar la dirección, `n` y `N` también cambian de dirección.   
+Puede utilizar `?{Patrón}` para buscar hacia arriba. El uso de `?` Sin un patrón cambia la dirección de la búsqueda actual. Al cambiar la dirección, `n` y `N` también cambian de dirección.
 
 Intente escribir `?` Y presione `ENTER`. Y luego vuelve a este 'pepino' mágico.
 
-El `{patrón}` en `/{patrón}` no tiene que ser una cadena literal. Es una expresión regular. ¡Oh, el gran poder de las expresiones regulares!   
+El `{patrón}` en `/{patrón}` no tiene que ser una cadena literal. Es una expresión regular. ¡Oh, el gran poder de las expresiones regulares!
 
-Intente usar el siguiente comando de búsqueda para encontrar títulos de segundo nivel en este documento. Observe cómo cuando llegue al final, comenzará de nuevo en la parte superior. Revise todo el documento hasta encontrar el siguiente título.   
+Intente usar el siguiente comando de búsqueda para encontrar títulos de segundo nivel en este documento. Observe cómo cuando llegue al final, comenzará de nuevo en la parte superior. Revise todo el documento hasta encontrar el siguiente título.
 
-- Escriba `/##.*`   
+-   Escriba `/##.*`
 
-## Moviéndose más rápido con recuentos   
+## Moviéndose más rápido con recuentos
 
-Los recuentos son números que le permiten multiplicar el efecto de un comando:   
+Los recuentos son números que le permiten multiplicar el efecto de un comando:
 
 ```
 {cuenta} {comando}
 ```
 
-¡Pruébelos usted mismo! Escriba "2w" para avanzar dos palabras:   
+¡Pruébelos usted mismo! Escriba "2w" para avanzar dos palabras:
+
 ```
 escriba wwww ==> v v v v v
               palabra. son dos palabras
               palabra. son dos palabras
 tipo 3w2w ==> ^ ^
 ```
-Pruebe con `5j` para saltar las líneas de archivo a continuación`:   
+
+Pruebe con `5j` para saltar las líneas de archivo a continuación`:
+
 ```
--X   
-0 | <- sitio de aterrizaje   
--X   
+-X
+0 | <- sitio de aterrizaje
+-X
 ```
-Intente encontrar una matriz dentro de una matriz:    
+
+Intente encontrar una matriz dentro de una matriz:
 
 ```
 tipo f [;; ==> vv v
@@ -459,21 +519,21 @@ Una forma más rápida de moverse hacia arriba es combinar recuentos con `j` y `
 
 Además de los movimientos anteriores que realmente no tienen en cuenta el significado de su código, Vim ofrece enlaces adicionales que toman en consideración la semántica de su código:
 
-- Use `gd` para **g** o para **d** efinición de lo que esté debajo de su cursor.
-- Use `gf` para **g** o para a **f** ile en una importación.
+-   Use `gd` para **g** o para **d** efinición de lo que esté debajo de su cursor.
+-   Use `gf` para **g** o para a **f** ile en una importación.
 
 ## Y algunos movimientos centrales más ingeniosos
 
 Estos son otros movimientos que pueden resultar útiles de vez en cuando:
 
-- Escriba `gg` para ir al principio del archivo.
-- Utilice `{line}gg` para ir a una línea específica.
-- Utilice `G` para ir al final del archivo.
-- Escriba `%` saltar a la coincidencia `({[]})`.   
+-   Escriba `gg` para ir al principio del archivo.
+-   Utilice `{line}gg` para ir a una línea específica.
+-   Utilice `G` para ir al final del archivo.
+-   Escriba `%` saltar a la coincidencia `({[]})`.
 
 Intente volver al principio de este archivo con `gg`, luego vuelva con `G`.
 
-Y ahora salte entre estos dos paréntesis coincidentes hasta que quiera irse a dormir:   
+Y ahora salte entre estos dos paréntesis coincidentes hasta que quiera irse a dormir:
 
 ```
 mecanografiado
@@ -483,6 +543,7 @@ mecanografiado
                    v
 const bagOfFoods = [["pepino"], ["tomate", "patata"]];
 ```
+
 ¡Y eso es todo! Felicítate a ti mismo. Acabas de asimilar los movimientos de Vim.
 
 #SIGUE INDAGANDO Y APRENDERAS MAS!
