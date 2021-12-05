@@ -4,21 +4,33 @@
 
 #### Dentro de la carpeta mdp/ ejecuta en la consola:
 
+```
 -yarn
 -npx create-react-app . //el punto va incluido
 -npm init
 -npm start  
+```
+-yarn
 
 #### Si no le gustó, Entonces debes tener instalado marked, bootstrap con la consola: 
+```
+-yarn
 -npm install -g marked
 -npm install marked
 -npm install --save bootstrap
 -yarn add bootstrap
 -npm install react-bootstrap --save
+-yarn
+```
 
 #### Para desplegarlo en tu localhost clona el repo y debes tener instalado npm y ejecutar un comando dentro del directorio del repositorio en consola:
+
+```
+-yarn
 - npm start
 - ve a tu localhost:
+-yarn
+```
 
 # **[chapter:][1]** Quieres codificar mas rapido? aumente su velocidad por 4x [seeThePost](https://github.com/rroderickk/Node.git)
 
