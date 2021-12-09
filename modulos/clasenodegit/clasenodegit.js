@@ -255,6 +255,5 @@ async function main() {
     );
     await leer(g, "\n\n"+"CheatMode: "+b+b_+"alias: \n\t"+"\44\44 bash2021 CHEATSHEET:\t\tbashcs;"+"\n\t"+"\44\44 python2021 CHEATSHEET:  pycs;"+"\n\t"+"\44\44 html52021 CHEATSHEET:\t\thtml5;"+"\n\t"+"\44\44 js2019 CHEATSHEET:\t\tjscs;"+"\n\t"+"\44\44 node CHEATSHEET:\tnodecs;"+"\n\t"+"\44\44 git CHEATSHEET:\t\tgitcs"+"\n\t"+"\44\44 git2021 CHEATSHEET:\t\t\tgitcs2021"+b+b_, 1);
 
-
 }
 main();
