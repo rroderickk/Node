@@ -1,1 +1,13 @@
-async/.gitignore
+/modulos/clasenodeconsolas.js
+/modulos/clasenodeconsola/
+modulos/clasenodegit/bashcs.js
+/modulos/clasenodegit/cgit.md
+/modulos/consola.jpg
+/modulos/consola.js
+/async/CHEATSHEET.jfif
+/async/asynAwait.js
+/async/callbackHell.js
+/async/pizza
+/javascript-cheatsheet-2019-lenguajejs.com.pdf
+/modulos/.gitignore
+/modulos/fs.js

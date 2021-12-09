@@ -12,17 +12,17 @@ t = __dirname + "/artAscii/shh.txt";
 z = __dirname + "/artAscii/forzen.txt";
 i = __dirname + "/artAscii/cat.txt";
 r = leer(__dirname + "/artAscii/glases.txt");
-//leer(p, leer(l), leer(a), leer(t), leer(z), leer(i), (r));
+leer(p, leer(l), leer(a), leer(t), leer(z), leer(i), (r));
 
-function escribir(ruta, contenido, cb) {
-    fs.writeFile(ruta, contenido, function (err) {
-        if (err) {
-            console.error("No he podido escribir", err);
-        } else {
-            console.log("Se ha escrito correctamente");
-        }
-    });
-}
+// function escribir(ruta, contenido, cb) {
+//     fs.writeFile(ruta, contenido, function (err) {
+//         if (err) {
+//             console.error("No he podido escribir", err);
+//         } else {
+//             console.log("Se ha escrito correctamente");
+//         }
+//     });
+// }
 
 //escribir(__dirname + "/moneyMMMM.txt",p,console.log());
 

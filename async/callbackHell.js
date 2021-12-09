@@ -72,3 +72,4 @@ hola("Platzi", function (nombre) {
  */
 /* Estamos ocupados o estamos siendo productivos?
 ENFOCATE */
+  

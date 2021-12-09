@@ -4,12 +4,12 @@ gothic-darks.css
 globales.png
 calculo.txt
 
-modulos/clasenodeconsola/for.js
-modulos/clasenodeconsola/gitr.txt
-modulos/clasenodeconsolas.js
-modulos/clasenodegit/.gitignore
-modulos/clasenodegit/bashcs.js
-modulos/clasenodegit/cgit.md         
-modulos/consola.jpg
-modulos/consola.js
+/modulos/clasenodeconsola/for.js
+/modulos/clasenodeconsola/gitr.txt
+/modulos/clasenodeconsolas.js
+/modulos/clasenodegit/.gitignore
+/modulos/clasenodegit/bashcs.js
+/modulos/clasenodegit/cgit.md         
+/modulos/consola.jpg
+/modulos/consola.js
 
