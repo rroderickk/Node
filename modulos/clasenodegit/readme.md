@@ -145,11 +145,13 @@ CheatMode: ;
 ```
 #### Si te gusta el codigo puedes checkearlo en el archivo clasenodegit.js
 
-#### Esto me recuerda a la matrix con solo un comando aprendes karate 
+## Esto me recuerda a la matrix con solo un comando aprendes karate 
 
 #### Aclaro esto es un concepto, el comando npx nodemon tarda en cargar por eso es mas rapido si la salida de un codigo como este es guardado en lenguaje Markdown para luego añadirlo al comando alias de esta forma:
 
 
 ````
 alias cheatseet=cat [rutaArchivo.ext] 
+alias node cheatseet=[rutaArchivo.pdf] /este por si es otro tipo(extensíon) de archivo como .pdf
 //con cat es mas rapido de visualizar en tu consola sin cargar todo nodemon todo depende si lo que quieres es visualizar para recordar o debuggear un codigo en liveserver
+
