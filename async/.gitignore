@@ -1,3 +1,4 @@
+.gitignore
 mindset_atencion_a_los_detalles.txt
 .prettierrc                
 asincronicidad.png         
@@ -13,13 +14,14 @@ django_startercheatsheet.jf
 ERROR NODE.png             
 html_cheatsheet.jfif       
 mementopython3-english.pdf 
-mindset_atencion_a_los_deta
-pandas_cheatsheet.png      
-pizza.js                   
-promises.js                
-prueba.py                  
-pythonListMethod.png       
-pythonSetMethod.png        
-pythonStringMethod.png     
-readme.md                  
-sqlv1.png                  
+
+
+pandas_cheatsheet.png
+pizza.js                
+promises.js             
+prueba.py       
+pythonListMethod.png      
+pythonSetMethod.png     
+pythonStringMethod.png
+readme.md               
+sqlv1.png                
