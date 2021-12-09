@@ -549,3 +549,4 @@ const bagOfFoods = [["pepino"], ["tomate", "patata"]];
 #SIGUE INDAGANDO Y APRENDERAS MAS!
 
 # **[chapter:][2]** Quieres codificar mas rapido? por 10x [seeThePost](https://github.com/rroderickk/Node/tree/master/modulos)
+# **[chapter:][3]** Quieres codificar mas rapido? por 100x [seeThePost](https://github.com/rroderickk/Node/tree/master/modulos/clasenodegit)
