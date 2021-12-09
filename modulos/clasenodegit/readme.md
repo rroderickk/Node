@@ -1,3 +1,5 @@
+# Ok aqui aprenderas a programar por 100X
+#### Cuando necesitas revisar la documentacion o algun archivo cheatsheet pierdes tiempo buscandolo y encontrandolo... dicho esto uno sabe que archivos va a necesitar a futuro, con esa premisa puedes crear comandos que te abra directamente esos archivos por ejemplo.
 # CLASE GIT NPX NODEMON CLASENODEGIT.JS
 
 ## Para recordar un codigo visto de algun tema sin salir de la consola, solo debes tener un archivo como CLASENODEGIT.JS sumado al comando Alias en la consola lo guardas de esta forma:
@@ -7,7 +9,7 @@ alias clasenodegit=npx nodemon [ruta del archivo \CLASENODEGIT.JS]
 
 ```
 
-### Ahi tienes una forma de recordar tus tutoriales o textos o instrucciones rapidamente sin salir de la consola a buscar dentro de inmensidad de archivos....
+### Ahi tienes una forma de recordar tus tutoriales o textos o instrucciones rapidamente sin salir de la consola a buscar dentro de inmensidad de archivos o por internet....
 
 ### La salida del codigo es tal que Así:
 ```
@@ -147,11 +149,19 @@ CheatMode: ;
 
 ## Esto me recuerda a la matrix con solo un comando aprendes karate 
 
-#### Aclaro esto es un concepto, el comando npx nodemon tarda en cargar por eso es mas rapido si la salida de un codigo como este es guardado en lenguaje Markdown para luego añadirlo al comando alias de esta forma:
+#### Notaras que tarda cierto tiempo en cargar Nodemon, Aclaro esto es un concepto, el comando npx nodemon tarda en cargar por eso es mas rapido si la salida de un codigo como este es guardado en lenguaje Markdown para luego añadirlo al comando alias de esta forma:
 
 
-````
+```
 alias cheatseet=cat [rutaArchivo.ext] 
-alias node cheatseet=[rutaArchivo.pdf] /este por si es otro tipo(extensíon) de archivo como .pdf
+alias node cheatseet=[rutaArchivo.pdf] //este por si es otro tipo(extensíon) de archivo como .pdf
 //con cat es mas rapido de visualizar en tu consola sin cargar todo nodemon todo depende si lo que quieres es visualizar para recordar o debuggear un codigo en liveserver
+//En este caso yo tengo el alias de clasenodegit que me da como resultado abrir con cat el archivo.md que me recuerda los demas alias que contienen esos cheatsheet.
+```
+
+# **[chapter:][1]** Quieres codificar mas rapido? velocidad aumentada por 4X [seeThePost](https://github.com/rroderickk/Node.git)
+
+# **[chapter:][2]** Quieres codificar mas rapido? por 10x [seeThePost](https://github.com/rroderickk/Node/tree/master/modulos)
+
+# **[chapter:][3]** Quieres codificar mas rapido? por 100x [seeThePost](https://github.com/rroderickk/Node/tree/master/modulos/clasenodegit)
 

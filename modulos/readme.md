@@ -1023,3 +1023,5 @@ I am realyl hapyp!
 ```
 
 # **<span style="color:gold">FELICIDADES HAZ AUMENTADO TU VELOCIDAD 10X**</span>
+
+## **[chapter:][3]** Quieres codificar mas rapido? velocidad aumentada por 100X [seeThePost](https://https://github.com/rroderickk/Node/tree/master/modulos/clasenodegit)
