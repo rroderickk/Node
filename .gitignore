@@ -1,6 +1,6 @@
-modulos/clasenodeconsolas.js
+/modulos/clasenodeconsolas.js
 /modulos/clasenodeconsola/
-modulos/clasenodegit/bashcs.js
+/modulos/clasenodegit/bashcs.js
 
 #gitcs2021
 #modulos/clasenodegit/cgit.md
@@ -16,4 +16,4 @@ modulos/clasenodegit/bashcs.js
 /modulos/.gitignore
 
 /modulos/fs.js
-!clasenodegit.js
+#clasenodegit.js
