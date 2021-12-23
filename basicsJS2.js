@@ -148,14 +148,20 @@ rChf(0,40,0,100,0,100);rChf(0,40,0,100,0,100);rChf(0,40,0,100,0,100);console.log
 rCc(Al,Al,Al);rCc(Al,Al,Al);rCc(Al,Al,Al);A("[+] batman [+]"); //! banner */
 
 hola();
+if (false === !true ) {console.log(false==true)}
 
-
-
-
-
+//? Piedra,Papel,Tijera
+mano = ['Piedra','Papel','Tijera'];
+jugador1 = mano[nRi(0,2)]; jugador2 = mano[nRa(0,2)];
+console.log("Jugador1: ",jugador1,"VS",jugador2,"Jugador2");
+jugador1 == jugador2 ? A("Empate") :  bar();
 
 //? Otra forma de escribir una funcion
-// var neim = function(a,b) {console.log("Aleatorios: ",a+~b);}; neim(nRi(2128,2128),nRa(1,9))       //* ██████╗
+// var neim = function(a,b) {console.log("Aleatorios: ",a+~b);}; neim(nRi(2128,2128),nRa(1,9));       //todo ██████╗
+var estudiantes = ['est1','est2','est3','est4']; SaluEst = (estudiantes) => { console.log(`Hola ${estudiantes[0]}`); };
+A("", SaluEst(estudiantes), SaluEst(estudiantes), SaluEst(estudiantes));
+SaluEst2 = (estudiantes) => { console.log(`hola ${estudiantes}`)}; for(var estudiante of estudiantes) {bar(SaluEst2(estudiante)); } ;
+SaluEst3 = () => { while(estudiantes.length > 0) { estudiante = estudiantes.shift(); console.log("hola",estudiante);}; } ; SaluEst3();
 
 
 // ? Mostrar en consola: 
