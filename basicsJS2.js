@@ -13,7 +13,7 @@ try {
 // ! ██╗███████╗// ! ██╗███████╗// ! ██╗███████╗// ! ██╗███████╗// ! ███████╗// ! ███████ !
  /* function */ foo = (b) => console.log(b);                         // ? ███████╗
 //! /* function */ function foo() {console.log('bar');}              // ? ██╔════╝
-hola = foo(string);                                                  // ? █████╗
+hola = () => foo(string);                                            // ? █████╗
 bar = () => {console.log(`\t$$foo()= ${age+string+age} $$`)}; bar(); // ? ██╔══╝
 foo(`${foo}\n ${bar}\v ${pir}`);                                     // ? ██║
                                                                      // ? ╚═╝
@@ -145,9 +145,9 @@ function randomColor(brightness){
 //! Matrix 6x6 hslfullAleatorio
 rChf = (h,h_,s,s_,l,l_) => { dd(`hsl(${nRa(h,h_)}deg ${nRa(s,s_)}% ${nRa(l,l_)}%)`,``,``)}; 
 rChf(0,40,0,100,0,100);rChf(0,40,0,100,0,100);rChf(0,40,0,100,0,100);console.log("\b");
-rCc(Al,Al,Al);rCc(Al,Al,Al);rCc(Al,Al,Al);A("[+] batman [+]") //! banner */
+rCc(Al,Al,Al);rCc(Al,Al,Al);rCc(Al,Al,Al);A("[+] batman [+]"); //! banner */
 
-
+hola();
 
 
 
