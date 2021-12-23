@@ -87,14 +87,24 @@ try {
     /* * */ if(pir >= !pir) {console.log("Adult")} else {console.log("Minor")}; 
     /* if? */ pir = (age >= 18) ? age : pir ; console.log(age,pir)
 console.table( array = [
-  {a1 :  true && true,},     // t && t devuelve true
+  {a1 :  true && true},     // t && t devuelve true
   {a2 :  true && false},   // t && f devuelve false
   {a3 : false && true },    // f && t devuelve false
   {a4 : false && (3 == 4)}, // f && f devuelve false
   {a5 : 'Cat' && 'Dog'},   // t && t devuelve Dog
   {a6 : false && 'Cat'},   // f && t devuelve false
   {a7 : 'Cat' && false}]);
-console.log(array[4], cuatro, array['4'], ty(array), array.length)
+prueba = (cn !== pir) ? array : ty(array); console.log(prueba,prueba.length)
+console.log(array[4], cuatro, array['4'], ty(array), array.length,age)
+if(array['a1'] !== array.length) {return console.table(array = [
+    {a1 :  true || true},     // t && t devuelve true
+    {a2 :  true || false},   // t && f devuelve false
+    {a3 : false || true },    // f && t devuelve false
+    {a4 : false || (3 == 4)}, // f && f devuelve false
+    {a5 : 'Cat' || 'Dog'},   // t && t devuelve Dog
+    {a6 : false || 'Cat'},   // f && t devuelve false
+    {a7 : pir || false}]
+)}
 
 // ? Mostrar en consola:
 //* * console.log(); /* console.log(dataTypeString) */ /* console.log(dataTypeNumber) */
@@ -102,13 +112,12 @@ console.log(array[4], cuatro, array['4'], ty(array), array.length)
 //* * console.error(); /* console.error(dataTypeString) */ /* console.error(dataTypeNumber) */
 //* * console.table(); /* console.table(dataTypeString) */ /* console.table(dataTypeNumber) */
 
-
 // ? Mostrar en navegador:
 // ! alert(); /* alert(dataTypeString) */ /* alert(dataTypeNumber) */
 // ? Pedir datos en navegador:
 // ! prompt(); /* prompt(dataTypeString) */ /* prompt(dataTypeNumber) */
 
-// ? Llamando variables:
+// ? Llamando variables: "",``,''
 
 // ? Llamando objetos:
 
