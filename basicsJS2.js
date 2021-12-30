@@ -95,7 +95,7 @@ dd(".",`#ff${nRi(0,9)}${nRi(0,9)}${nRa(0,9)}${nRa(0,9)}`,`${i++} ColoresR: `);  
 dd(".",`#${nRi(0,9)}${nRi(0,9)}ff${nRa(0,9)}${nRa(0,9)}`,`${i++} ColoresG: `);                     //!██╔══██╗
 dd(".",`#${nRi(0,9)}${nRi(0,9)}${nRa(0,9)}${nRa(0,9)}ff`,`${i++} ColoresB: `);                     //!██║  ██║
 dd(".",`#${nRi(0,9)}${nRi(0,9)}${nRi(0,9)}${nRi(0,9)}${nRa(0,9)}${nRa(0,9)}`,`${i++} Colores: `); //! ╚═╝  ╚═╝
-                                      
+dd(".",`#${nRi(0,9)}${nRi(0,9)}f${nRi(0,9)}`,`${i++} Colores: `); 
                                     // ██████╗  ██████╗ ██████╗                                   //* ██████╗
                                     // ██╔══██╗██╔════╝ ██╔══██╗                                  //* ██╔════╝
                                     // ██████╔╝██║  ███╗██████╔╝                                  //* ██║  ███╗
@@ -158,11 +158,147 @@ jugador1 == jugador2 ? A("Empate") :  bar();
 
 //? Otra forma de escribir una funcion
 // var neim = function(a,b) {console.log("Aleatorios: ",a+~b);}; neim(nRi(2128,2128),nRa(1,9));       //todo ██████╗
-var estudiantes = ['est1','est2','est3','est4']; SaluEst = (estudiantes) => { console.log(`Hola ${estudiantes[0]}`); };
+var estudiantes = ['est1','est2','est3','est4']; SaluEst = (estudiantes) => { console.log(`Hola ${estudiantes[0]}`); } ; 
 A("", SaluEst(estudiantes), SaluEst(estudiantes), SaluEst(estudiantes));
 SaluEst2 = (estudiantes) => { console.log(`hola ${estudiantes}`)}; for(var estudiante of estudiantes) {bar(SaluEst2(estudiante)); } ;
 SaluEst3 = () => { while(estudiantes.length > 0) { estudiante = estudiantes.shift(); console.log("hola",estudiante);}; } ; SaluEst3();
 
+//? Otra forma de escribir una objetos, no arrow
+var miCoche = {
+    marca: 'Tesla',
+    modelo: 'Roadster4xPro22',
+    age: 2022,
+    detail: function(){console.log(`Mi Coche: ${this.marca} ${this.modelo}, año ${this.age}`)},
+};
+miCoche.detail();
+
+//? funcion plantilla de objeto 
+function auto(marca,modelo,age){
+    this.marca = marca;
+    this.modelo = modelo;
+    this.age = age;
+    this.detail = function(){console.log(`Mi Coche: ${this.marca} ${this.modelo}, año ${this.age}`)};
+}
+var miCoche2  = new auto('Tesla','Model 3',2022);
+var miCoche3  = new auto('Tesla','Model 2',2022);
+var miCoche4  = new auto('Tesla','Raptor',2022);
+var miCoche5  = new auto('Tesla','Raptor',2022);
+miCoche2.detail();
+miCoche3.detail();
+miCoche4.detail(); // todo Loop para automatizar 30 carros 
+
+var fruta = function(nombre, tamaño, precio, calidad){
+    this.nombre = nombre;
+    this.tamaño = tamaño;
+    this.precio = precio;
+    this.calidad = calidad;
+    this.detail = function(){console.log(`${this.nombre} ${this.tamaño} precio ${this.precio} calidad ${this.calidad}`)};
+}
+var nuevaFruta = new fruta("Platano", "Mediano", 3, "Excelente");
+var nuevaFruta1 = new fruta("Mandarina", "Grande", 4, "Excelente");
+var nuevaFruta2 = new fruta("Manzana", "Chico", 4, "Regular");
+var nuevaFruta3 = new fruta("Cereza", "Pequeño", 2, "Buena");
+var nuevaFruta4 = new fruta("Mango", "Chico", 444, 'log4j');
+nuevaFruta4.detail(); 
+
+nuevaFruta2.detail(); 
+const frutera = [nuevaFruta,nuevaFruta1,nuevaFruta2,nuevaFruta3,nuevaFruta4];
+
+//! Reccorido de array
+show = (arr) => {
+    for (let i=0 ; i<arr.length ; i++) {
+        arr[i].detail();
+    }
+}
+
+//! Mutable
+frutera.push(nuevaFruta5 = new fruta("5", "Mediano", "4 pesos", "Exce"));
+frutera.unshift(nuevaFruta5 = new fruta("$$", "$$", "$$", "$#$"));
+// frutera.splice(1,0, nuevaFruta4);
+frutera.pop();
+frutera.shift();
+show(frutera);
+// fruitsAndCheese.fill("hola",1,2)
+
+//! Inmutable 
+const cheese = [];
+var Cheese = function(nombre, tamaño, precio, madurez){
+    this.nombre = nombre;
+    this.tamaño = tamaño;
+    this.precio = precio;
+    this.madurez = madurez;
+    this.detail = function(){console.log(`${this.nombre} ${this.tamaño} precio ${this.precio} maduro ${this.madurez}`)};
+};
+var nuevoCheese = new Cheese("Pecorino", "Romano", 43, "Antiguo");
+var nuevoCheese1 = new Cheese("Parmesano", "Granapadano", 42, "Antiguo");
+cheese.push(nuevoCheese, nuevoCheese1);
+show(cheese);
+bar();
+const fruitsAndCheese = frutera.concat(cheese);
+show(fruitsAndCheese);
+bar();
+
+ //todo spreadOperators
+const market = [...frutera, ...cheese];
+
+//todo Funcion de primer orden 
+let fn = function (f) {
+    console.log(f);
+}
+
+//todo Arrow function, function anonima sin nombre
+let fn1 = (name) => console.log(name.nombre)
+
+//todo Funciones de orden superior. function como parametro
+function some(f) {
+    console.log('function');
+    fn1(f);
+    console.log('function de ordenSuperior');
+}
+
+//todo ForEach();
+fruitsAndCheese.forEach( (el, i ) => { console.log(el, `Index ${i}`); });
+cheese.sort( (a, b) => a.precio - b.precio ); //! sort array
+A(frutera);
+const frutilla = frutera.find(element => element.nombre == 'Mandarina');
+some(frutilla);
+const frutillaf = frutera.filter(element => element.precio < 4);
+frutillaf.reverse(); //! reverse array
+// A(frutillaf);
+
+//todo Modificando collection
+const frutillaf2 = frutera.map( element => {return {nombre: element.nombre, precio: element.precio * 4} } );
+// A(frutillaf2);
+
+//todo reduce collection with all elements
+const frutillaf3 = frutera.reduce( element => {return {nombre: element.nombre, precio: element.precio * 4} } );
+// A(frutillaf3);
+
+//todo Modificando entera 
+const fMC = frutillaf2.reduce( (acc, curr) => acc+"\n"+' precio Acumulado '+curr.precio,0 ); //! recorriendo array accumulated, current concatenando
+A(fMC);
+
+bar();
+//! coleccion de funciones
+const fns = [
+    () => console.log('f1'),
+    () => console.log('f2'),
+    () => console.log('f3'),
+    (e) => { e==undefined ?  null : fn(e) },
+    (e) => { e==undefined ?  null : A(e) },
+];
+fns.forEach( e=>e(fns) ); //! Element
+// fns[4](string);
+// fns[3](string);
+bar();
+
+//? Interpretado por el DOM en navegador
+function showDom(element, arr) {
+    document.getElementById(element).innerHTML = "";
+    for(let i=0; i<arr.length ; i++) {
+        document.getElementById(element).innerHTML += `<div>${arr[i]}</div>`;
+    }
+}
 
 // ? Mostrar en consola: 
 //* * console.log(); /* console.log(dataTypeString) */ /* console.log(dataTypeNumber) */
