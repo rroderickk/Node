@@ -252,12 +252,12 @@ let fn1 = (name) => console.log(name.nombre)
 //todo Funciones de orden superior. function como parametro
 function some(f) {
     console.log('function');
-    fn1(f);
+    fn(f);
     console.log('function de ordenSuperior');
 }
 
 //todo ForEach();
-fruitsAndCheese.forEach( (el, i ) => { console.log(el, `Index ${i}`); });
+fruitsAndCheese.forEach( (el, i) => { console.log(el, `Index ${i}`); });
 cheese.sort( (a, b) => a.precio - b.precio ); //! sort array
 A(frutera);
 const frutilla = frutera.find(element => element.nombre == 'Mandarina');
