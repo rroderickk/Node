@@ -64,19 +64,51 @@ const a = captureTheAssasins(id,name='Ruth_Elena',apellido='Pertuz',param='wtf',
 console.log(a.linea1,a.linea2);
 
 console.log('$$$$$$$$$$$$$$$$CAPTURETHEASSASINS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$');
-console.log('================BANEER======================================');
+console.log('================BANEER======================================\n');
 
 //todo */ ┌─┐┌─┐┬  ┌─┐┌─┐┌┬┐┬┌─┐┌┐┌  ┌─┐┬ ┬┌┐┌┌─┐┌┬┐┬┌─┐┌┐┌┌─┐
 //todo */ │  │ ││  ├┤ │   │ ││ ││││  ├┤ │ │││││   │ ││ ││││└─┐
 //todo */ └─┘└─┘┴─┘└─┘└─┘ ┴ ┴└─┘┘└┘  └  └─┘┘└┘└─┘ ┴ ┴└─┘┘└┘└─┘
+console.log('88888888888888888888888888888888888BANEER88888888888888888888888888888888888888');
+console.log('$$$$$$$$$$$$$$$$CAPTURETHEASSASINS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$');
+console.log('================BANEER======================================');
+
 const pb = {
     0: apply = (num, f) => f(num),
     1: double = (num) =>  2 * num ,
     2: square = (num) =>  num * num ,
     3: print = (e) =>  console.log(e),
-}; // pb[3](apply(1, double));
+}; 
+// console.log(pb[3](apply(1, double)));
+// pb[3](double(1, double));
+// pb[3](double(2, double));
+// pb[3](double(4, double));
+// console.log(pb[1](apply(4, double)));
+// console.log(pb[1](apply(4, square)));
+// console.log(pb[2](apply(4, double)));
+// console.log(pb[2](square(4, double)));
+
+function pagina1() {
+  return {
+    pag0: `${pb[3](double(1, double))}`,
+    pag1: `${pb[3](double(2, double))}`,
+    pag2: `${pb[3](double(4, double))}`,
+    pag3: `${console.log(pb[1](apply(4, double)))}`,
+    pag4: `${console.log(pb[1](apply(4, square)))}`,
+    pag5: `${console.log(pb[2](apply(4, double)))}`,
+    pag6: `${console.log(pb[2](square(4, double)))}`,
+  }
+}
+let matrix = () =>  pagina1() ;
+matrixRecargado = [matrix,pagina1]
+console.log(matrixRecargado[1]());
+
+
+console.log('$$$$$$$$$$$$$$$$CAPTURETHEASSASINS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$');
+console.log('88888888888888888888888888888888888BANEER88888888888888888888888888888888888888');
 
 dollars = ["40$","30$","48$","44$","60$","1160$"];
+
 //?map
 let prices = [];
 for (let i=0 ; i<dollars.length ; i++) {
